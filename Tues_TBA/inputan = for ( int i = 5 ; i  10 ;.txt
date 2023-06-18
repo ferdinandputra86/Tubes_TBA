@@ -1,0 +1,17 @@
+inputan = for ( int i = 5 ; i > 10 ; i ++ ) { c = b + c ; }
+
+<statemen> = for ( int <variabel> = <angka> ; <variabel> <condition> <angka> ; <variabel> <increment> ) {aksi}
+
+<kondisi> = <variabel> <operation> <angka>
+
+<variabel> = a | b | c | d | e | f | g | h | i
+
+<angka> = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
+
+<condition> = | >= | <= | < | >
+
+operation = + | - | * | /
+
+simbol non terminal = <statement>,<kondisi>,<variabel>,<angka>,<condition>,<operation>
+
+Simbol Terminal : for, ;, {, }, =, ++,--, >=, <=, <, >, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, a, b, c, d, e, f, g, h, i, +, - , *, /
